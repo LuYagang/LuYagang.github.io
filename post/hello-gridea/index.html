@@ -107,7 +107,7 @@ Gridea 主页
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a data-pjax class="navbar-brand" href="https://LuYagang.github.io">Gridea&nbsp;&nbsp;|</a>
+      <a data-pjax class="navbar-brand" href="https://LuYagang.github.io">Arkon_Wish&nbsp;&nbsp;|</a>
       <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
           style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
     </div>
@@ -148,6 +148,8 @@ Gridea 主页
         </li>
         
         
+        
+        <li><a data-pjax href="https://LuYagang.github.io/talk">说说</a></li>
         
           
         <li><a data-pjax href="https://LuYagang.github.io/friends">友链</a></li>
@@ -258,10 +260,10 @@ Gridea 主页
                         src='https://LuYagang.github.io/media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://LuYagang.github.io/images/avatar.png?v=1620705984882" class="avatar">
+            <img src="https://LuYagang.github.io/images/avatar.png?v=1620709196193" class="avatar">
         </div>
-        <div class="sitename">Gridea</div>
-        <span class="description" data-text='["温故而知新"]'>&nbsp;</span>
+        <div class="sitename">Arkon_Wish</div>
+        <span class="description" data-text='["不以纪录，无以进步"]'>&nbsp;</span>
         <div class="siteinfocontainer">
             <span class="siteinfo">文章</span>
             <span class="siteinfo">标签</span>
@@ -280,6 +282,12 @@ Gridea 主页
     <div class="share-button">
         <span></span>
         
+        <a href="luyagang.github.io" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://LuYagang.github.io/media/images/github.png" alt=""></i></a>
+        
+        
+        <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
+                    src="https://LuYagang.github.io/media/images/QQ.png" alt=""></i></a>
         
         
         
@@ -288,7 +296,7 @@ Gridea 主页
         
         
     </div>
-    <div id="qq" style="display:none"></div>
+    <div id="qq" style="display:none">157776307</div>
     <!------------ 加载菜单按钮👇 ------------------------->
     <div class="menucontainer">
         
@@ -329,6 +337,12 @@ Gridea 主页
         
         
 
+        
+        <div class="mchocie description">
+            <a data-pjax href="https://LuYagang.github.io/talk" class="menubutton" style="margin-right: 15px;">
+                <i><img class="icon menuicon" src="" alt="说说"></i>&nbsp;<span data-text="说说">说说</span>
+            </a>
+        </div>
         
             
         <div class="mchocie description">
@@ -377,6 +391,16 @@ Gridea 主页
             </div>
             <div>
                 
+                <script async
+                    src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/busuanzi.pure.mini.js"></script>
+                <div id="vistornum" style="margin:0">
+                    <span id="busuanzi_container_site_uv">
+                        <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> 总访问量:<span
+                            id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
+                    </span>
+                </div>
+                
             </div>
             <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 鄂ICP备...号
             </div>
@@ -419,12 +443,12 @@ Gridea 主页
             $(".flycontainer").css("display","flex");
             $(".popup").fadeOut(500)
             await sleep(2000);
-            var sitename = "Gridea";
+            var sitename = "Arkon_Wish";
             getFogUser(sitename);
         }
 
         function fog_goregis(){
-            var sitename = "Gridea";
+            var sitename = "Arkon_Wish";
             var siteurl = "https://LuYagang.github.io";
             regisFogUser(sitename,siteurl);
         }
@@ -908,6 +932,11 @@ menulist.eq(i).show();
                 <div id="pl" style="display:none">https://LuYagang.github.io/post/hello-gridea/</div>
                 <div id="rootaddr" style="display:none">https://LuYagang.github.io</div>
                 
+                    <span id="hotnum">
+                        <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
+                                class="hotnum">loading...</i></h4>
+                    </span>
+                
             </div>
             <div class="text ">
                 <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -944,7 +973,7 @@ menulist.eq(i).show();
             
             <div class="postfooter">
                 <ul class="post-copyright">
-                    <li><strong>文章作者：</strong></li>
+                    <li><strong>文章作者：</strong>Arkon</li>
             <li><strong>原文链接：</strong>https://LuYagang.github.io/post/hello-gridea/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
@@ -1033,10 +1062,10 @@ menulist.eq(i).show();
     
 
     <!-- 背景图加载方式👇 -->
-    <div id="bgchoice" style="display: none">default
+    <div id="bgchoice" style="display: none">link
                 </div>
                 
-                <div id="bgurl" style="display:none">/media/images/bgimg.png</div>
+                <div id="bgurl" style="display:none">https://images5.alphacoders.com/114/1145097.jpg</div>
                 
     <!-- 背景图加载方式👆 -->
 </body>
